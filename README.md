@@ -11,3 +11,7 @@ the risks clear.
 
 Given the lack of widely-deployed uses of these extraneous APIS, disabling them is a prudent
 defense-in-depth measure.
+
+## Verification
+
+Verify Bluetooth is disabled here: https://googlechrome.github.io/samples/web-bluetooth/device-info.html
