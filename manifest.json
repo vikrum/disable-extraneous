@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "Disable WebUSB",
-  "description": "Disables the WebUSB API for all websites.",
+  "name": "Disable Extraneous",
+  "description": "Disables extraneous APIs for all websites.",
   "version": "1.0.1",
   "content_scripts": [{
     "matches": ["https://*/*", "http://*/*"],
     "run_at": "document_start",
-    "js": ["disable_webusb.js"]
+    "js": ["disable_ext.js"]
   }],
   "permissions": [
     "tabs",
